@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Employer ProfileVC-->
+        <scene sceneID="gBR-iT-uqs">
+            <objects>
+                <viewController storyboardIdentifier="MyEmployerProfileVC" id="bi3-ye-Aey" customClass="MyEmployerProfileVC" customModule="Wagespoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y40-xH-Y4G"/>
+                        <viewControllerLayoutGuide type="bottom" id="7g9-qK-ogV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WpA-FZ-xzp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RMW-uK-Glh">
+                                <rect key="frame" x="0.0" y="54" width="375" height="490"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hb3-t7-znJ">
+                                <rect key="frame" x="35" y="556" width="305" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="UPDATE" backgroundImage="company-Pay-Button_3x.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="p9N-qY-Rch"/>
+                    <connections>
+                        <outlet property="myTableView" destination="RMW-uK-Glh" id="L0h-4c-cbM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jHg-qk-E9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-07-26 at 3.34.01 PM.png" id="ZV2-42-PLU">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </objects>
+            <point key="canvasLocation" x="-2202.4000000000001" y="2011.8440779610196"/>
+        </scene>
+        <!--CreateA JobVC-->
+        <scene sceneID="1oV-v0-3RQ">
+            <objects>
+                <viewController storyboardIdentifier="CreateAJobVC" id="MmA-A5-XYS" customClass="CreateAJobVC" customModule="Wagespoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X2Z-Cb-ucN"/>
+                        <viewControllerLayoutGuide type="bottom" id="g1c-zh-wVw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XYG-ib-ziP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7iM-tm-qBo">
+                                <rect key="frame" x="0.0" y="54" width="375" height="476"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udo-GG-Ed1">
+                                <rect key="frame" x="16" y="542" width="343" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="PAY" backgroundImage="company-Pay-Button_3x.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="createJobButtonClickedWithSender:" destination="MmA-A5-XYS" eventType="touchUpInside" id="k9s-6O-QI2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KXf-gd-D9q"/>
+                    <connections>
+                        <outlet property="myTableView" destination="7iM-tm-qBo" id="0UC-zg-eGG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6uK-7w-KTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-07-26 at 3.34.01 PM.png" id="Rc6-1O-m4x">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </objects>
+            <point key="canvasLocation" x="-2202.4000000000001" y="2011.8440779610196"/>
+        </scene>
+        <!--Job DetailVC-->
+        <scene sceneID="oH4-qM-Ofo">
+            <objects>
+                <viewController storyboardIdentifier="JobDetailVC" id="8T5-1a-hRe" customClass="JobDetailVC" customModule="Wagespoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JjB-G4-4SS"/>
+                        <viewControllerLayoutGuide type="bottom" id="zkx-fb-eKx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1qf-IG-a1p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aZg-cl-VIf">
+                                <rect key="frame" x="0.0" y="54" width="375" height="476"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leo-Rw-dba">
+                                <rect key="frame" x="-416" y="461" width="1208" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Apply" backgroundImage="company-Pay-Button_3x.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="createJobButtonClickedWithSender:" destination="8T5-1a-hRe" eventType="touchUpInside" id="LlT-EA-NG5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Cp-sF-kmi"/>
+                    <connections>
+                        <outlet property="myTableView" destination="aZg-cl-VIf" id="mYu-9h-PxW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GqC-TX-4ST" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-07-26 at 3.34.01 PM.png" id="JmA-Sb-oSo">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </objects>
+            <point key="canvasLocation" x="-2202.4000000000001" y="2011.8440779610196"/>
+        </scene>
+        <!--Message View Controller-->
+        <scene sceneID="vw9-BJ-dQc">
+            <objects>
+                <viewController storyboardIdentifier="MessageViewController" id="gqo-9C-xjB" customClass="MessageViewController" customModule="Wagespoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dqG-Jp-qvg"/>
+                        <viewControllerLayoutGuide type="bottom" id="ONF-y2-GmV"/>
+                    </layoutGuides>
+                    <view key="view" alpha="0.65000000000000002" contentMode="scaleToFill" id="6FU-5h-YQI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Give an appointment via Message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbn-Y7-OPo">
+                                <rect key="frame" x="51" y="144" width="288" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="kYy-sV-jSU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEb-41-mEy">
+                                <rect key="frame" x="142" y="283" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="closeButtonPressed" destination="gqo-9C-xjB" eventType="touchUpInside" id="FKm-KB-ScI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JEb-41-mEy" firstAttribute="top" secondItem="kbn-Y7-OPo" secondAttribute="bottom" constant="47" id="SIS-UM-LCT"/>
+                            <constraint firstItem="JEb-41-mEy" firstAttribute="leading" secondItem="6FU-5h-YQI" secondAttribute="leading" constant="142" id="V4Z-H8-2XG"/>
+                            <constraint firstItem="kbn-Y7-OPo" firstAttribute="top" secondItem="dqG-Jp-qvg" secondAttribute="bottom" constant="144" id="cSN-hZ-sjm"/>
+                            <constraint firstItem="kbn-Y7-OPo" firstAttribute="leading" secondItem="6FU-5h-YQI" secondAttribute="leadingMargin" id="mmz-gV-4VB"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B3F-uQ-kE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1796.8" y="-157.42128935532236"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2017-07-26 at 3.34.01 PM.png" width="16" height="16"/>
+        <image name="company-Pay-Button_3x.png" width="1208" height="217"/>
+    </resources>
+</document>

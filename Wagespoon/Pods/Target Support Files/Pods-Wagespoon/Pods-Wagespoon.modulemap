@@ -1,0 +1,6 @@
+framework module Pods_Wagespoon {
+  umbrella header "Pods-Wagespoon-umbrella.h"
+
+  export *
+  module * { export * }
+}
