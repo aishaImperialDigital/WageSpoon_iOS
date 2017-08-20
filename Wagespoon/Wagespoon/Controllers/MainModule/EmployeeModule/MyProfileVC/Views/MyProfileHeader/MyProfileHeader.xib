@@ -44,7 +44,7 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkc-lI-I2B">
                     <rect key="frame" x="332" y="27" width="18" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button" image="edit_3x.png"/>
+                    <state key="normal" title="Button" image="edit.png"/>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="likes_bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="L5w-2J-2FM">
                     <rect key="frame" x="0.0" y="339" width="375" height="34"/>
@@ -95,12 +95,12 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UrF-T8-qWc">
                     <rect key="frame" x="80" y="326" width="70" height="70"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" image="select_3x.png"/>
+                    <state key="normal" image="select.png"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7d-ZP-Tte">
                     <rect key="frame" x="233" y="325" width="70" height="70"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button" image="reject_3x.png"/>
+                    <state key="normal" title="Button" image="reject.png"/>
                 </button>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZg-8b-DHi">
                     <rect key="frame" x="263" y="370" width="112" height="30"/>
@@ -148,11 +148,11 @@
     </objects>
     <resources>
         <image name="dislike_3x.png" width="45" height="50"/>
-        <image name="edit_3x.png" width="43" height="41"/>
+        <image name="edit.png" width="21" height="20"/>
         <image name="like_3x.png" width="47" height="52"/>
-        <image name="likes_bar.png" width="1276" height="133"/>
+        <image name="likes_bar.png" width="638" height="66"/>
         <image name="preview_tab.png" width="260" height="69"/>
-        <image name="reject_3x.png" width="189" height="189"/>
-        <image name="select_3x.png" width="189" height="189"/>
+        <image name="reject.png" width="94" height="94"/>
+        <image name="select.png" width="94" height="94"/>
     </resources>
 </document>
